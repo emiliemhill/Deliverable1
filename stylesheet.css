@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(164, 194, 197)
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.headers{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px
+}
+a:hover {
+    color: #ca58da;
+}
+img {
+    border-radius: 25px;
+    box-shadow: 3px 5px #c7860e;
+}
+.form {
+    display: block;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px dotted #c7860e;
+    border-radius: 15px;
+    padding: 10px;
+}
+@media (min-width: 600px) {
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
